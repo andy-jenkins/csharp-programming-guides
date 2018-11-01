@@ -1,4 +1,6 @@
-﻿namespace StaticMembers
+﻿using System;
+
+namespace ProgrammingGuides.StaticMembers
 {
     public class Car
     {
@@ -6,6 +8,11 @@
         {
             _make = make;
             _model = model;
+        }
+
+        public void Print()
+        {
+            Console.WriteLine($"I am a {_make} {_model}.");
         }
 
         private static string _make;

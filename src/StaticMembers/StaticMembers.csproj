@@ -1,6 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <LangVersion>latest</LangVersion>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>ProgrammingGuides.StaticMembers</AssemblyName>
+    <RootNamespace>ProgrammingGuides.StaticMembers</RootNamespace>
   </PropertyGroup>
 </Project>
