@@ -5,4 +5,4 @@ This repository contains a collection of guides and samples
 demonstrating different techniques using C# and typically .NET Core.
 
 ## Topics
-* [Static Members](doc/static-members.md)
+* [Static Members](src/StaticMembers/README.md)
