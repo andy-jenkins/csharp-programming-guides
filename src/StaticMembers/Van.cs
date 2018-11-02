@@ -3,12 +3,12 @@
 namespace ProgrammingGuides.StaticMembers
 {
     /// <summary>
-    /// A <see cref="Car"/> contains two static members.
-    /// These members are shared between all instances of <see cref="Car"/>.
+    /// A <see cref="Van"/> contains two readonly instance members.
+    /// These members are exclusive to each instance of a <see cref="Van"/>.
     /// </summary>
-    internal class Car
+    internal class Van
     {
-        internal Car(string make, string model)
+        internal Van(string make, string model)
         {
             _make = make;
             _model = model;
@@ -19,7 +19,7 @@ namespace ProgrammingGuides.StaticMembers
             Console.WriteLine($"I am a {_make} {_model}.");
         }
 
-        private static string _make;
-        private static string _model;
+        private readonly string _make;
+        private readonly string _model;
     }
 }
